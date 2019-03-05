@@ -1,0 +1,44 @@
+success at publish: 21:00:20
+fail: DotNetCore.CAP.DefaultSubscriberExecutor[0]
+      An exception occurred while executing the subscription method. Topic:test-cap-as-event-bus, Id:1102916757616578560
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: Exception of type 'System.Exception' was thrown. ---> System.Exception: Exception of type 'System.Exception' was thrown.
+   at test_cap.Controllers.ValuesController.TestCap(DateTime now) in /Users/jake/Projects/test-cap/test-cap/Controllers/ValuesController.cs:line 34
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass30_0.<WrapVoidMethod>b__0(Object target, Object[] parameters) in C:\projects\cap\src\DotNetCore.CAP\Internal\ObjectMethodExecutor\ObjectMethodExecutor.cs:line 194
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.ExecuteWithParameterAsync(ObjectMethodExecutor executor, Object class, String parameterString) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 87
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.InvokeAsync(ConsumerContext context) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 51
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 181
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 194
+   at DotNetCore.CAP.DefaultSubscriberExecutor.ExecuteWithoutRetryAsync(CapReceivedMessage message) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 88
+warn: DotNetCore.CAP.DefaultSubscriberExecutor[0]
+      The 1th retrying consume a message failed. message id: 1102916757616578560
+dbug: DotNetCore.CAP.Internal.DefaultConsumerInvoker[0]
+      Executing consumer Topic: TestCap
+success at publish: 21:00:20
+fail: DotNetCore.CAP.DefaultSubscriberExecutor[0]
+      An exception occurred while executing the subscription method. Topic:test-cap-as-event-bus, Id:1102916757616578560
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: Exception of type 'System.Exception' was thrown. ---> System.Exception: Exception of type 'System.Exception' was thrown.
+   at test_cap.Controllers.ValuesController.TestCap(DateTime now) in /Users/jake/Projects/test-cap/test-cap/Controllers/ValuesController.cs:line 34
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass30_0.<WrapVoidMethod>b__0(Object target, Object[] parameters) in C:\projects\cap\src\DotNetCore.CAP\Internal\ObjectMethodExecutor\ObjectMethodExecutor.cs:line 194
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.ExecuteWithParameterAsync(ObjectMethodExecutor executor, Object class, String parameterString) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 87
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.InvokeAsync(ConsumerContext context) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 51
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 181
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 194
+   at DotNetCore.CAP.DefaultSubscriberExecutor.ExecuteWithoutRetryAsync(CapReceivedMessage message) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 88
+warn: DotNetCore.CAP.DefaultSubscriberExecutor[0]
+      The 2th retrying consume a message failed. message id: 1102916757616578560
+dbug: DotNetCore.CAP.Internal.DefaultConsumerInvoker[0]
+      Executing consumer Topic: TestCap
+success at publish: 21:00:20
+fail: DotNetCore.CAP.DefaultSubscriberExecutor[0]
+      An exception occurred while executing the subscription method. Topic:test-cap-as-event-bus, Id:1102916757616578560
+DotNetCore.CAP.Internal.SubscriberExecutionFailedException: Exception of type 'System.Exception' was thrown. ---> System.Exception: Exception of type 'System.Exception' was thrown.
+   at test_cap.Controllers.ValuesController.TestCap(DateTime now) in /Users/jake/Projects/test-cap/test-cap/Controllers/ValuesController.cs:line 34
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.<>c__DisplayClass30_0.<WrapVoidMethod>b__0(Object target, Object[] parameters) in C:\projects\cap\src\DotNetCore.CAP\Internal\ObjectMethodExecutor\ObjectMethodExecutor.cs:line 194
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.ExecuteWithParameterAsync(ObjectMethodExecutor executor, Object class, String parameterString) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 87
+   at DotNetCore.CAP.Internal.DefaultConsumerInvoker.InvokeAsync(ConsumerContext context) in C:\projects\cap\src\DotNetCore.CAP\Internal\IConsumerInvoker.Default.cs:line 51
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 181
+   --- End of inner exception stack trace ---
+   at DotNetCore.CAP.DefaultSubscriberExecutor.InvokeConsumerMethodAsync(CapReceivedMessage receivedMessage) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 194
+   at DotNetCore.CAP.DefaultSubscriberExecutor.ExecuteWithoutRetryAsync(CapReceivedMessage message) in C:\projects\cap\src\DotNetCore.CAP\ISubscribeExecutor.Default.cs:line 88
